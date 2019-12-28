@@ -1,0 +1,24 @@
+{
+  "name": "koatest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec ts-node main.ts"
+  },
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-middle-validator": "^1.2.0",
+    "koa-router": "^7.4.0",
+    "node-cache": "^5.1.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.0.42",
+    "@types/node-cache": "^4.2.5"
+  }
+}
