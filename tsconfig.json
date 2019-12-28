@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "target": "ES6",
-    "types": ["reflect-metadata"],
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
-  }
-}
