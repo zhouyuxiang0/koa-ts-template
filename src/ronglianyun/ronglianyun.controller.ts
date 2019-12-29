@@ -1,10 +1,11 @@
-import { Controller } from '../common/decorator/index'
-import { Get } from '../common/decorator/index'
+import { Controller, Get } from '../common/index'
+
+import { appConfig } from '../common/config/app.config';
 
 @Controller('ronglianyun')
 export class Ronglianyun {
   @Get()
-  fetchOne(ctx): void {
+  async fetchOne(ctx): Promise<void> {
     console.log('>>>>>>>>>>>>>>>>>>>>>')
     ctx.body = {
       code:0,
